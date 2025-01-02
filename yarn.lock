@@ -15,6 +15,43 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@anacoelhovicente/react-spline@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@anacoelhovicente/react-spline@workspace:."
+  dependencies:
+    "@splinetool/runtime": ^1.3.10
+    "@types/animejs": ^3.1.12
+    "@types/lodash.debounce": ^4.0.9
+    "@types/node": ^20.14.1
+    "@types/react": ^18.3.3
+    "@types/react-dom": ^18.3.0
+    "@vitejs/plugin-react": ^4.3.0
+    animejs: ^3.2.2
+    blurhash: 2.0.5
+    lodash.debounce: 4.0.8
+    modern-normalize: ^1.1.0
+    next: 15.0.0-rc.0
+    np: ^10.0.5
+    react: 19.0.0-rc-f994737d14-20240522
+    react-dom: 19.0.0-rc-f994737d14-20240522
+    react-merge-refs: 2.1.1
+    rimraf: ^5.0.7
+    rollup-plugin-rename-node-modules: ^1.3.1
+    rollup-preserve-directives: ^1.1.1
+    thumbhash: 0.1.1
+    typescript: ^5.4.5
+    vite: ^5.2.12
+  peerDependencies:
+    "@splinetool/runtime": "*"
+    next: ">=14.2.0"
+    react: "*"
+    react-dom: "*"
+  peerDependenciesMeta:
+    next:
+      optional: true
+  languageName: unknown
+  linkType: soft
+
 "@babel/code-frame@npm:^7.0.0":
   version: 7.16.7
   resolution: "@babel/code-frame@npm:7.16.7"
@@ -1088,43 +1125,6 @@ __metadata:
   checksum: 2e6e0c3acf188dcd9aea0f324ac1b6ad04c9fc672392a7b5a1218512fcde066965797eba8b9fe2108657a504388bd4a6664e6e6602555168e828a6df08b9f10e
   languageName: node
   linkType: hard
-
-"@splinetool/react-spline@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@splinetool/react-spline@workspace:."
-  dependencies:
-    "@splinetool/runtime": ^1.3.10
-    "@types/animejs": ^3.1.12
-    "@types/lodash.debounce": ^4.0.9
-    "@types/node": ^20.14.1
-    "@types/react": ^18.3.3
-    "@types/react-dom": ^18.3.0
-    "@vitejs/plugin-react": ^4.3.0
-    animejs: ^3.2.2
-    blurhash: 2.0.5
-    lodash.debounce: 4.0.8
-    modern-normalize: ^1.1.0
-    next: 15.0.0-rc.0
-    np: ^10.0.5
-    react: 19.0.0-rc-f994737d14-20240522
-    react-dom: 19.0.0-rc-f994737d14-20240522
-    react-merge-refs: 2.1.1
-    rimraf: ^5.0.7
-    rollup-plugin-rename-node-modules: ^1.3.1
-    rollup-preserve-directives: ^1.1.1
-    thumbhash: 0.1.1
-    typescript: ^5.4.5
-    vite: ^5.2.12
-  peerDependencies:
-    "@splinetool/runtime": "*"
-    next: ">=14.2.0"
-    react: "*"
-    react-dom: "*"
-  peerDependenciesMeta:
-    next:
-      optional: true
-  languageName: unknown
-  linkType: soft
 
 "@splinetool/runtime@npm:^1.3.10":
   version: 1.3.10
